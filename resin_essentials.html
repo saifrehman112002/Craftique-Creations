@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Boxes — Craftique Creation</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+
+    <!-- PNG Format -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/images/favicon-32x32.png"
+      sizes="32x32"
+    />
+
+    <!-- Apple Touch Icon (iPhone/iPad) -->
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">
+          <a href="index.html">
+            <img src="assets/images/cclogo.png" alt="Craftique Creation Logo" />
+          </a>
+        </div>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="boxes.html">Boxes</a>
+          <a href="cards.html">Cards</a>
+          <a href="stickers.html">Stickers</a>
+          <a href="certificates.html">Certificates</a>
+          <a href="favors.html">Favors</a>
+          <a href="mailers_flyers.html">Mailers</a>
+          <a href="goody_bags.html">Bags</a>
+          <a href="resin_essentials.html">Resin</a>
+          <a href="seasonal.html">Seasonal</a>
+          <a href="contact.html" class="btn">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h2>Resin Essentials</h2>
+      <hr />
+      <div class="product-grid">
+        <!-- Product 1 -->
+        <article class="product">
+          <div class="product-gallery" data-gallery="1">
+            <!-- Main Image -->
+            <div class="main-image">
+              <img
+                src="assets/images/Resin/GKR1.jpg"
+                alt="Explosion Box"
+                onclick="openModal(this)"
+              />
+            </div>
+
+            <!-- Thumbnails carousel -->
+            <div class="thumbnail-carousel">
+              <button
+                class="thumb-arrow left"
+                onclick="scrollThumbnails(this,-1)"
+              >
+                &#10094;
+              </button>
+              <div class="thumbnails">
+                <img
+                  src="assets/images/Resin/GKR1.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+                <img
+                  src="assets/images/Resin/GKR2.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+                <img
+                  src="assets/images/Resin/GKR3.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+                <img
+                  src="assets/images/Resin/GKR4.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+              </div>
+              <button
+                class="thumb-arrow right"
+                onclick="scrollThumbnails(this,1)"
+              >
+                &#10095;
+              </button>
+            </div>
+          </div>
+
+          <div class="product-body">
+            <h3>Golden Key Rings</h3>
+            <hr>
+            <p>
+              High-quality golden keyrings, perfect for crafting resin keychains
+              and accessories with a premium finish.
+            </p>
+            <div class="product-meta">Colors: Golden & Silver Available</div>
+            <div>Price: Rs.250 (12 pieces)</div>
+            <div class="WIbuttons">
+              <a
+                class="whatsapp-btn"
+                href="https://wa.me/923152396345"
+                target="_blank"
+                >Order on WhatsApp</a
+              >
+              <a
+                class="instagram-btn"
+                href="https://www.instagram.com/direct/t/17846584851336090/"
+                target="_blank"
+                >Order on Instagram</a
+              >
+              </div>
+          </div>
+        </article>
+        <article class="product">
+          <div class="product-gallery" data-gallery="1">
+            <!-- Main Image -->
+            <div class="main-image">
+              <img
+                src="assets/images/Resin/GES1.png"
+                alt="Explosion Box"
+                onclick="openModal(this)"
+              />
+            </div>
+
+            <!-- Thumbnails carousel -->
+            <div class="thumbnail-carousel">
+              <button
+                class="thumb-arrow left"
+                onclick="scrollThumbnails(this,-1)"
+              >
+                &#10094;
+              </button>
+              <div class="thumbnails">
+                <img
+                  src="assets/images/Resin/GES1.png"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+                <img
+                  src="assets/images/Resin/GES2.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+                <img
+                  src="assets/images/Resin/GES3.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+              </div>
+              <button
+                class="thumb-arrow right"
+                onclick="scrollThumbnails(this,1)"
+              >
+                &#10095;
+              </button>
+            </div>
+          </div>
+
+          <div class="product-body">
+            <h3>Golden Eye Screws</h3>
+            <hr>
+            <p>
+              Durable golden eye screws that securely attach to resin pieces,
+              ideal for making pendants, charms, and keychains.
+            </p>
+            <div class="product-meta">Colors: Golden & Silver Available</div>
+            <div>Price: Rs.250 (60 pieces)</div>
+            <div class="WIbuttons">
+              <a
+                class="whatsapp-btn"
+                href="https://wa.me/923152396345"
+                target="_blank"
+                >Order on WhatsApp</a
+              >
+              <a
+                class="instagram-btn"
+                href="https://www.instagram.com/direct/t/17846584851336090/"
+                target="_blank"
+                >Order on Instagram</a
+              >
+              </div>
+          </div>
+        </article>
+        <article class="product">
+          <div class="product-gallery" data-gallery="1">
+            <!-- Main Image -->
+            <div class="main-image">
+              <img
+                src="assets/images/Resin/GSF1.jpg"
+                alt="Explosion Box"
+                onclick="openModal(this)"
+              />
+            </div>
+
+            <!-- Thumbnails carousel -->
+            <div class="thumbnail-carousel">
+              <button
+                class="thumb-arrow left"
+                onclick="scrollThumbnails(this,-1)"
+              >
+                &#10094;
+              </button>
+              <div class="thumbnails">
+                <img
+                  src="assets/images/Resin/GSF1.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+                <img
+                  src="assets/images/Resin/GSF2.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+                <img
+                  src="assets/images/Resin/GSF3.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+              </div>
+              <button
+                class="thumb-arrow right"
+                onclick="scrollThumbnails(this,1)"
+              >
+                &#10095;
+              </button>
+            </div>
+          </div>
+
+          <div class="product-body">
+            <h3>Gold & Silver Foil</h3>
+            <hr>
+            <p>
+              Shiny metallic foil flakes in golden and silver shades — add
+              sparkle and elegance to your resin art projects.
+            </p>
+            <div class="product-meta">Colors: Gold & Silver</div>
+            <div>Price: Rs.150 each</div>
+            <div class="WIbuttons">
+              <a
+                class="whatsapp-btn"
+                href="https://wa.me/923152396345"
+                target="_blank"
+                >Order on WhatsApp</a
+              >
+              <a
+                class="instagram-btn"
+                href="https://www.instagram.com/direct/t/17846584851336090/"
+                target="_blank"
+                >Order on Instagram</a
+              >
+              </div>
+          </div>
+        </article>
+        <article class="product">
+          <div class="product-gallery" data-gallery="1">
+            <!-- Main Image -->
+            <div class="main-image">
+              <img
+                src="assets/images/Resin/CM1.jpg"
+                alt="Explosion Box"
+                onclick="openModal(this)"
+              />
+            </div>
+
+            <!-- Thumbnails carousel -->
+            <div class="thumbnail-carousel">
+              <button
+                class="thumb-arrow left"
+                onclick="scrollThumbnails(this,-1)"
+              >
+                &#10094;
+              </button>
+              <div class="thumbnails">
+                <img
+                  src="assets/images/Resin/CM1.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+                <img
+                  src="assets/images/Resin/CM2.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+                <img
+                  src="assets/images/Resin/CM3.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+                <img
+                  src="assets/images/Resin/CM4.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+              </div>
+              <button
+                class="thumb-arrow right"
+                onclick="scrollThumbnails(this,1)"
+              >
+                &#10095;
+              </button>
+            </div>
+          </div>
+
+          <div class="product-body">
+            <h3>Coin Magnets</h3>
+            <hr>
+            <p>
+              Strong and sleek coin magnets, perfect for creating resin fridge
+              magnets or other functional crafts.
+            </p>
+            <div class="product-meta">
+              Size: 30mm x 3mm (1.18 x 0.118 Inches)
+            </div>
+            <div>Price: Rs.250 (10 Pieces)</div>
+
+            <div class="WIbuttons">
+              <a
+                class="whatsapp-btn"
+                href="https://wa.me/923152396345"
+                target="_blank"
+                >Order on WhatsApp</a
+              >
+              <a
+                class="instagram-btn"
+                href="https://www.instagram.com/direct/t/17846584851336090/"
+                target="_blank"
+                >Order on Instagram</a
+              >
+              </div>
+          </div>
+        </article>
+        <article class="product">
+          <div class="product-gallery" data-gallery="1">
+            <!-- Main Image -->
+            <div class="main-image">
+              <img
+                src="assets/images/Resin/SIS1.jpg"
+                alt="Explosion Box"
+                onclick="openModal(this)"
+              />
+            </div>
+
+            <!-- Thumbnails carousel -->
+            <div class="thumbnail-carousel">
+              <button
+                class="thumb-arrow left"
+                onclick="scrollThumbnails(this,-1)"
+              >
+                &#10094;
+              </button>
+              <div class="thumbnails">
+                <img
+                  src="assets/images/Resin/SIS1.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+                <img
+                  src="assets/images/Resin/SIS2.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+                <img
+                  src="assets/images/Resin/SIS3.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+              </div>
+              <button
+                class="thumb-arrow right"
+                onclick="scrollThumbnails(this,1)"
+              >
+                &#10095;
+              </button>
+            </div>
+          </div>
+
+          <div class="product-body">
+            <h3>Small Ice Cream Sticks</h3>
+            <hr>
+            <p>
+              Handy small wooden sticks, perfect for mixing resin, pigments, or
+              small craft projects.
+            </p>
+            <div class="product-meta">Size: 4.5 x 0.5 Inches</div>
+            <div>Price: Rs.150 (5 Packets)</div>
+            <div class="WIbuttons">
+              <a
+                class="whatsapp-btn"
+                href="https://wa.me/923152396345"
+                target="_blank"
+                >Order on WhatsApp</a
+              >
+              <a
+                class="instagram-btn"
+                href="https://www.instagram.com/direct/t/17846584851336090/"
+                target="_blank"
+                >Order on Instagram</a
+              >
+              </div>
+          </div>
+        </article>
+        <article class="product">
+          <div class="product-gallery" data-gallery="1">
+            <!-- Main Image -->
+            <div class="main-image">
+              <img
+                src="assets/images/Resin/LIS1.jpg"
+                alt="Explosion Box"
+                onclick="openModal(this)"
+              />
+            </div>
+
+            <!-- Thumbnails carousel -->
+            <div class="thumbnail-carousel">
+              <button
+                class="thumb-arrow left"
+                onclick="scrollThumbnails(this,-1)"
+              >
+                &#10094;
+              </button>
+              <div class="thumbnails">
+                <img
+                  src="assets/images/Resin/LIS1.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+                <img
+                  src="assets/images/Resin/LIS2.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+                <img
+                  src="assets/images/Resin/LIS3.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+              </div>
+              <button
+                class="thumb-arrow right"
+                onclick="scrollThumbnails(this,1)"
+              >
+                &#10095;
+              </button>
+            </div>
+          </div>
+
+          <div class="product-body">
+            <h3>Large Ice Cream Sticks</h3>
+            <hr>
+            <p>
+              Larger wooden sticks designed for stirring, spreading, and
+              crafting bigger resin batches with ease.
+            </p>
+            <div class="product-meta">Size: 6 X 0.8 Inches</div>
+            <div>Price: Rs.180 (3 Packets)</div>
+            <div class="WIbuttons">
+              <a
+                class="whatsapp-btn"
+                href="https://wa.me/923152396345"
+                target="_blank"
+                >Order on WhatsApp</a
+              >
+              <a
+                class="instagram-btn"
+                href="https://www.instagram.com/direct/t/17846584851336090/"
+                target="_blank"
+                >Order on Instagram</a
+              >
+              </div>
+          </div>
+        </article>
+        <article class="product">
+          <div class="product-gallery" data-gallery="1">
+            <!-- Main Image -->
+            <div class="main-image">
+              <img
+                src="assets/images/Resin/SDC1.jpg"
+                alt="Explosion Box"
+                onclick="openModal(this)"
+              />
+            </div>
+
+            <!-- Thumbnails carousel -->
+            <div class="thumbnail-carousel">
+              <button
+                class="thumb-arrow left"
+                onclick="scrollThumbnails(this,-1)"
+              >
+                &#10094;
+              </button>
+              <div class="thumbnails">
+                <img
+                  src="assets/images/Resin/SDC1.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+                <img
+                  src="assets/images/Resin/SDC2.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+              </div>
+              <button
+                class="thumb-arrow right"
+                onclick="scrollThumbnails(this,1)"
+              >
+                &#10095;
+              </button>
+            </div>
+          </div>
+
+          <div class="product-body">
+            <h3>Small Disposable Cups</h3>
+            <hr>
+            <p>
+              Convenient small cups for mixing resin in precise quantities
+              without hassle.
+            </p>
+            <div class="product-meta">Size: 2.5 Inches Height</div>
+            <div>Price: Rs.120 (50 pieces)</div>
+            <div class="WIbuttons">
+              <a
+                class="whatsapp-btn"
+                href="https://wa.me/923152396345"
+                target="_blank"
+                >Order on WhatsApp</a
+              >
+              <a
+                class="instagram-btn"
+                href="https://www.instagram.com/direct/t/17846584851336090/"
+                target="_blank"
+                >Order on Instagram</a
+              >
+              </div>
+          </div>
+        </article>
+        <article class="product">
+          <div class="product-gallery" data-gallery="1">
+            <!-- Main Image -->
+            <div class="main-image">
+              <img
+                src="assets/images/Resin/LDC1.jpg"
+                alt="Explosion Box"
+                onclick="openModal(this)"
+              />
+            </div>
+
+            <!-- Thumbnails carousel -->
+            <div class="thumbnail-carousel">
+              <button
+                class="thumb-arrow left"
+                onclick="scrollThumbnails(this,-1)"
+              >
+                &#10094;
+              </button>
+              <div class="thumbnails">
+                <img
+                  src="assets/images/Resin/LDC1.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+                <img
+                  src="assets/images/Resin/LDC2.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+              </div>
+              <button
+                class="thumb-arrow right"
+                onclick="scrollThumbnails(this,1)"
+              >
+                &#10095;
+              </button>
+            </div>
+          </div>
+
+          <div class="product-body">
+            <h3>Large Disposable Cups</h3>
+            <hr>
+            <p>
+              Spacious disposable cups suitable for mixing larger resin
+              portions, keeping the process clean and easy.
+            </p>
+            <div class="product-meta">Size: 4.5 Inches Height</div>
+            <div>Price: Rs.300 (50 Pieces)</div>
+            <div class="WIbuttons">
+              <a
+                class="whatsapp-btn"
+                href="https://wa.me/923152396345"
+                target="_blank"
+                >Order on WhatsApp</a
+              >
+              <a
+                class="instagram-btn"
+                href="https://www.instagram.com/direct/t/17846584851336090/"
+                target="_blank"
+                >Order on Instagram</a
+              >
+              </div>
+          </div>
+        </article>
+        <article class="product">
+          <div class="product-gallery" data-gallery="1">
+            <!-- Main Image -->
+            <div class="main-image">
+              <img
+                src="assets/images/Resin/R1.jpg"
+                alt="Explosion Box"
+                onclick="openModal(this)"
+              />
+            </div>
+
+            <!-- Thumbnails carousel -->
+            <div class="thumbnail-carousel">
+              <button
+                class="thumb-arrow left"
+                onclick="scrollThumbnails(this,-1)"
+              >
+                &#10094;
+              </button>
+              <div class="thumbnails">
+                <img
+                  src="assets/images/Resin/R1.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+                <img
+                  src="assets/images/Resin/R2.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+              </div>
+              <button
+                class="thumb-arrow right"
+                onclick="scrollThumbnails(this,1)"
+              >
+                &#10095;
+              </button>
+            </div>
+          </div>
+
+          <div class="product-body">
+            <h3>Crystal Epoxy Resin Set</h3>
+            <hr>
+            <p>
+              Clear and durable epoxy resin, perfect for making glossy,
+              bubble-free resin crafts and professional art pieces.
+            </p>
+            <div class="product-meta">Weight: 1.5Ltr (Resin + Hardener)</div>
+            <div>Price: Rs.2700</div>
+            <div class="WIbuttons">
+              <a
+                class="whatsapp-btn"
+                href="https://wa.me/923152396345"
+                target="_blank"
+                >Order on WhatsApp</a
+              >
+              <a
+                class="instagram-btn"
+                href="https://www.instagram.com/direct/t/17846584851336090/"
+                target="_blank"
+                >Order on Instagram</a
+              >
+              </div>
+          </div>
+        </article>
+        <article class="product">
+          <div class="product-gallery" data-gallery="1">
+            <!-- Main Image -->
+            <div class="main-image">
+              <img
+                src="assets/images/Resin/SP1.jpg"
+                alt="Explosion Box"
+                onclick="openModal(this)"
+              />
+            </div>
+
+            <!-- Thumbnails carousel -->
+            <div class="thumbnail-carousel">
+              <button
+                class="thumb-arrow left"
+                onclick="scrollThumbnails(this,-1)"
+              >
+                &#10094;
+              </button>
+              <div class="thumbnails">
+                <img
+                  src="assets/images/Resin/SP1.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+                <img
+                  src="assets/images/Resin/SP2.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+                <img
+                  src="assets/images/Resin/SP3.jpg"
+                  alt="Box Angle 1"
+                  onclick="setImage(this)"
+                />
+              </div>
+              <button
+                class="thumb-arrow right"
+                onclick="scrollThumbnails(this,1)"
+              >
+                &#10095;
+              </button>
+            </div>
+          </div>
+
+          <div class="product-body">
+            <h3>Shredder Pieces Packet</h3>
+            <hr>
+            <p>
+              Colorful shredded paper pieces available in almost every shade —
+              great for decoration, packing, or adding texture to resin
+              projects.
+            </p>
+            <div class="product-meta">
+              Colors: Cream,Black,White,Pink,Red,Brown, & more
+            </div>
+            <div>Material: Paper</div>
+            <div>Weight: Approx. 50g</div>
+            <div>Price: Rs.300 (5 Packets)</div>
+            <div class="WIbuttons">
+              <a
+                class="whatsapp-btn"
+                href="https://wa.me/923152396345"
+                target="_blank"
+                >Order on WhatsApp</a
+              >
+              <a
+                class="instagram-btn"
+                href="https://www.instagram.com/direct/t/17846584851336090/"
+                target="_blank"
+                >Order on Instagram</a
+              >
+              </div>
+          </div>
+        </article>
+        <!-- Add more box products as needed -->
+      </div>
+      <!-- 🚀 Modal should be OUTSIDE -->
+      <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <span class="prev" onclick="changeModalImage(-1)">&#10094;</span>
+        <img class="modal-content" id="modalImage" />
+        <span class="next" onclick="changeModalImage(1)">&#10095;</span>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>Craftique Creation</strong>
+          <p>Karachi, Pakistan</p>
+        </div>
+        <div class="socials">
+          <a href="https://instagram.com/resinique.pk" target="_blank"
+            >Instagram</a
+          >
+          <a
+            href="https://wa.me/92PHONE_NUMBER?text=Hi%20I%20want%20to%20order"
+            target="_blank"
+            >WhatsApp</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

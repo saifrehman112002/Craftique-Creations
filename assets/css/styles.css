@@ -230,47 +230,6 @@ body {
   z-index: 1001; /* keep above nav */
   padding: 8px 12px; /* give it space */
 }
-@media (max-width: 720px) {
-  .hero {
-    margin-left: 7%;
-  }
-  .header-inner {
-    flex-wrap: wrap; /* allow elements to stack */
-  }
-
-  .menu-toggle {
-    display: block;
-    margin-left: auto; /* push it to the right */
-  }
-
-  .nav {
-    display: none; /* hidden by default */
-    flex-direction: column;
-    width: 100%;
-    background: #fff;
-    border-top: 1px solid #eee;
-    margin-top: 10px;
-    padding: 10px 0;
-  }
-
-  .nav a {
-    /* margin: 10px 0; */
-    display: block;
-    text-align: center;
-    color: #263239;
-    font-weight: bold;
-    margin: 0; /* remove extra margin */
-    padding: 12px 0; /* space inside each item */
-    border-bottom: 1px solid #ddd; /* divider line */
-  }
-  .nav a:last-child {
-    border-bottom: none; /* remove line after last item */
-  }
-
-  .nav.show {
-    display: flex; /* show when toggled */
-  }
-}
 .lb-close {
   font-size: 32px !important;
   top: 20px !important;
@@ -352,6 +311,11 @@ body {
   height: 100%;
   background: rgba(0, 0, 0, 0.9);
   text-align: center;
+/*     
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+   */
 }
 
 .modal-content {
@@ -428,7 +392,47 @@ body {
     height: 250px;
   }
 }
+@media (max-width: 720px) {
+  .hero {
+    margin-left: 7%;
+  }
+  .header-inner {
+    flex-wrap: wrap; /* allow elements to stack */
+  }
 
+  .menu-toggle {
+    display: block;
+    margin-left: auto; /* push it to the right */
+  }
+
+  .nav {
+    display: none; /* hidden by default */
+    flex-direction: column;
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #eee;
+    margin-top: 10px;
+    padding: 10px 0;
+  }
+
+  .nav a {
+    /* margin: 10px 0; */
+    display: block;
+    text-align: center;
+    color: #263239;
+    font-weight: bold;
+    margin: 0; /* remove extra margin */
+    padding: 12px 0; /* space inside each item */
+    border-bottom: 1px solid #ddd; /* divider line */
+  }
+  .nav a:last-child {
+    border-bottom: none; /* remove line after last item */
+  }
+
+  .nav.show {
+    display: flex; /* show when toggled */
+  }
+}
 @media (max-width: 600px) {
   .product-body{
     height: auto;
@@ -448,6 +452,10 @@ body {
   }
   .hero-left{
     margin-left: 0;
+  }
+  .modal-content {
+    margin-top: 30%;
+    object-fit: contain;
   }
 }
 

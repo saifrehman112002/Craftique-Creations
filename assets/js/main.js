@@ -67,3 +67,21 @@ function changeModalImage(step) {
   if (currentIndex < 0) currentIndex = modalImages.length - 1;
   modalImg.src = modalImages[currentIndex];
 }
+function toggleMenu() {
+  document.querySelector(".nav").classList.toggle("show");
+}
+
+function sendWhatsApp(button) {
+  // Find product title
+  const product = button.closest(".product");
+  const title = product.querySelector("h3").innerText.trim();
+
+  // Your WhatsApp number
+  const phone = "923152396345";
+
+  // Encode message
+  const message = encodeURIComponent(`Hi! I’m interested in ${title}.`);
+
+  // Redirect to WhatsApp with product title
+  window.open(`https://wa.me/${phone}?text=${message}`, "_blank");
+}

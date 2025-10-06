@@ -5,6 +5,7 @@
 }
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body {
   font-family: Inter, system-ui, Segoe UI, Arial, sans-serif;
